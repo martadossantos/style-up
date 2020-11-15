@@ -1,0 +1,26 @@
+.main-soof {
+   max-width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   img {
+      height: 50%;
+   }
+}
+
+.acc {
+   height: 50%;
+}
+
+.drag {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   img {
+      cursor: move;
+      transform: scale(0.25);
+   }
+ }

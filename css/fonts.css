@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Name';
+    src: url('../assets/fonts/name.eot');
+    src: url('../assets/fonts/name.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/name.woff2') format('woff2'),
+        url('../assets/fonts/name.woff') format('woff'),
+        url('../assets/fonts/name.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
