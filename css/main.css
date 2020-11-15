@@ -9,16 +9,12 @@
   transform: scale(0.25);
 }
 
-.acc {
-  height: 50%;
-}
-
 .drag {
   position: absolute;
   top: 0;
   left: 0;
+  transform: scale(0.25);
 }
 .drag img {
   cursor: move;
-  transform: scale(0.25);
 }

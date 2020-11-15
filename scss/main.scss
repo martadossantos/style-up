@@ -10,17 +10,13 @@
    }
 }
 
-.acc {
-   height: 50%;
-}
-
 .drag {
    position: absolute;
    top: 0;
    left: 0;
+   transform: scale(0.25);
 
    img {
       cursor: move;
-      transform: scale(0.25);
    }
  }
