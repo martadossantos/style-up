@@ -18,3 +18,7 @@
 .drag img {
   cursor: move;
 }
+
+body {
+  background-color: #B0E0E6;
+}
