@@ -14,13 +14,19 @@
    position: absolute;
    top: 0;
    left: 0;
-   transform: scale(0.25);
 
    img {
       cursor: move;
+      max-width: 25%;
    }
  }
+
+ .drag.is-dragging img { 
+    filter: drop-shadow(0 0 5px #7FFF00); 
+   }
 
  body { 
     background-color: #B0E0E6;
  }
+
+
