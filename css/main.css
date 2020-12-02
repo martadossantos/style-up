@@ -1,28 +1,33 @@
-.main-soof {
-  max-width: 100vw;
+body {
+  background-color: #B0E0E6;
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.main-soof {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .main-soof img {
-  transform: scale(0.25);
+  max-width: 100%;
 }
 
 .drag {
   position: absolute;
-  top: 0;
-  left: 0;
 }
 .drag img {
   cursor: move;
-  max-width: 25%;
+  max-width: 100%;
 }
 
 .drag.is-dragging img {
   filter: drop-shadow(0 0 5px #7FFF00);
 }
 
-body {
-  background-color: #B0E0E6;
+.drag.square {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
 }
